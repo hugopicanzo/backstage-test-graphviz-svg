@@ -1,0 +1,8 @@
+site_name: LFI-Exploit-Exfiltration
+plugins:
+  - techdocs-core
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path: /
+
+
