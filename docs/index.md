@@ -1,1 +1,6 @@
-# Testing XSS with extra_javascript
+# Testing SSRF with plantUML
+
+```plantuml
+@startuml
+A -> B
+@enduml
