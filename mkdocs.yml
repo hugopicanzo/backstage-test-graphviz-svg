@@ -2,5 +2,6 @@ site_name: XSS-Research
 plugins:
   - techdocs-core
 markdown_extensions:
-  - graphviz_inline
+  - inline_graphviz
+
 
