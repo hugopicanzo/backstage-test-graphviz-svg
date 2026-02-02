@@ -1,8 +1,5 @@
-site_name: LFI-Exploit-Exfiltration
+site_name: XSS-Research
 plugins:
   - techdocs-core
 markdown_extensions:
-  - pymdownx.snippets:
-      base_path: /
-
-
+  - inline_graphviz
