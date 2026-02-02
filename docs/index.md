@@ -1,10 +1,6 @@
-# Testing XSS in inline SVG
+# Testing XSS with plantUML
 
-{% dot attack.svg
-  digraph G {
-  rankdir=LR
-    Earth [peripheries=2]
-    Mars
-    Earth -> Mars
-  }
-%}
+```plantuml
+@startuml
+class "<img src=x onerror=alert('XSS_SUCCESS_DOMAIN_'+document.domain)>" as User
+@enduml
