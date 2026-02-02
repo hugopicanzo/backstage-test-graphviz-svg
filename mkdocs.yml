@@ -3,7 +3,8 @@ plugins:
   - techdocs-core
 markdown_extensions:
   - plantuml_markdown
-
+extra_javascript:
+  - bypass.js
 
 
 
